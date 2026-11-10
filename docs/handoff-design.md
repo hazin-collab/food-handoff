@@ -4,6 +4,14 @@
 
 In this example, a supplier sends a batch of food to a retailer. The supplier records when the batch leaves, and the retailer records when it arrives. If their records disagree, the two businesses have to check their delivery notes to work out what happened.
 
+## Comparison with current practice
+
+In 2025, Tesco and ten suppliers trialled QR codes that capture batch numbers and use-by dates (GS1 UK, 2025). This illustrates how a retailer can identify a food batch by scanning its label. Our design keeps the batch identifier and adds a shared delivery record.
+
+For example, if the supplier marks B-104 as dispatched but the retailer disputes delivery, both parties can check whether the retailer’s account ever confirmed receipt. The supplier controls the dispatch entry, and the retailer controls the receipt entry. This could reduce the time staff spend comparing delivery notes. An unconfirmed batch would still need investigation: it could be in transit, or staff might have forgotten to record its arrival.
+
+Source: GS1 UK (2025) ‘Tesco in early trials of next generation barcodes in move set to reshape UK retail’, 23 April. Available at: https://www.gs1uk.org/insights/news/Tesco-in-early-trials-of-next-generation-barcodes .
+
 ## Proposed workflow
 
 1. The supplier registers food batch B-104 and names the retailer who will receive it.
