@@ -11,6 +11,8 @@ In this example, a supplier sends a batch of food to a retailer. The supplier re
 3. When the delivery arrives, the retailer checks the batch label and confirms receipt in the app.
 4. The smart contract records receipt only if the batch was dispatched and the confirmation came from the named retailer. Both parties can then see that B-104 was received.
 
+![Food batch handoff workflow](../handoff-workflow.png)
+
 ## Proposed business model
 
 The supplier and retailer would use the app as a shared delivery register. The supplier would pay to register and dispatch each batch. The retailer would pay to record receipt after checking the delivery. Both would need to train staff to use the app.
